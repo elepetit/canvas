@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="farbtastic/farbtastic.css" type="text/css" />
+    <link rel="stylesheet" href="css/canvas.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="farbtastic/farbtastic.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/tools.js"></script>
+    <script src="js/Backgound.class.js"></script>
+    <script src="js/Calque.class.js"></script>
+    <script src="js/Stylo.class.js"></script>
+    <script src="js/Carre.class.js"></script>
+    <script src="js/Cercle.class.js"></script>
+    <script src="js/Ligne.class.js"></script>
+</head>
+<body>
+    <header class="header-main">
+        <div id="toolbar">
+
+            <button id="ligne" data-outil="ligne">Ligne</button>
+            <button id="carre" data-outil="carre">Carré</button>
+            <button id="cercle" data-outil="cercle">Cercle</button>
+            <button id="libre" data-outil="libre">Libre</button>
+            <button id="couleurBordure" data-type="borderColor" class="colorBtn">Couleur Bordure</button>
+            <button id="couleurRemplissage" data-type="backgroundColor" class="colorBtn">Couleur Remplissage</button>
+
+            <div id="formCouleur" class="displayNone">
+                <form>
+                    <input type="text" id="couleurInput" name="color"/>
+                    <label for="couleurInput">Couleur Html</label>
+                </form>
+                <div id="colorpicker"></div>
+                <div id="couleurOk"><button class="okBtn">OK</button></div>
+            </div>
+
+            <div id="epaisseur">
+                <ul class="menu-level-one">
+                    <li>
+                        <a href="#">Epaisseur tracé</a>
+
+                        <ul class="menu-level-two epaisseur">
+
+                            <li><a id="extraFine" href="#" data-epaisseur="1"><img src="img/extrafin.png" alt="exfin"> </a></li>
+                            <li><a id="fine" href="#" data-epaisseur="3"><img src="img/fin.png" alt="fin"></a></li>
+                            <li><a id="normal" href="#" data-epaisseur="5"><img src="img/normal.png" alt="normal"></a></li>
+                            <li><a id="fat" href="#" data-epaisseur="10"><img src="img/large.png" alt="large"></a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="Style de ligne">
+                <ul class="menu-level-one">
+                    <li>
+                        <a href="#">Style tracé</a>
+
+                        <ul class="menu-level-two dotted">
+
+                            <li><a id="dotted0" href="#" data-dotted="1"><img src="img/dotted0.png" alt="exfin"> </a></li>
+                            <li><a id="dotted2" href="#" data-dotted="2"><img src="img/dotted2.png" alt="fin"></a></li>
+                            <li><a id="dotted3" href="#" data-dotted="3"><img src="img/dotted3.png" alt="normal"></a></li>
+                            <li><a id="dotted4" href="#" data-dotted="4"><img src="img/dotted4.png" alt="large"></a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="Fin de ligne">
+                <ul class="menu-level-one">
+                    <li>
+                        <a href="#">Fin de tracé</a>
+
+                        <ul class="menu-level-two endTrace">
+
+                            <li><a id="butt" href="#" data-linecap="butt"><img src="img/butt.png" alt="exfin"> </a></li>
+                            <li><a id="round" href="#" data-linecap="round"><img src="img/round.png" alt="fin"></a></li>
+                            <li><a id="square" href="#" data-linecap="square"><img src="img/square.png" alt="normal"></a></li>
+
+
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <input type="checkbox" name="rempli" id="rempli" checked=checked>
+                <label for="rempli">Remplissage</label>
+            </div>
+            <div>
+                <button id="gomme" data-outil="gomme">Gomme</button>
+            </div>
+            <div>
+                <button id="effacer">Effacer</button>
+            </div>
+
+        </div>
+    </header>
+    <canvas id="background">
+    </canvas>
+
+    <canvas id="calque" class="toForeground">
+    </canvas>
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="07682221-70ec-4630-ad6b-08babeb0befe" name="3wa" url="http://emmanuellepetit.c9.pixelsass.fr">
+        <fileTransfer host="emmanuellepetit.c9.pixelsass.fr" port="22" privateKey="$PROJECT_DIR$/../../../../cle rsa/id_rsa" rootFolder="/home/emmanuellepetit/sites" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

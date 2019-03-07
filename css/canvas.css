@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    background-color: bisque;
+    font-family: 'Open Sans', sans-serif;
+    color: steelblue;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+header{
+    position: relative;
+}
+.header-main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-main li {
+    list-style: none;
+    position: relative;
+}
+.header-main a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+#toolbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 80%;
+    justify-content: space-between;
+}
+.menu-level-one {
+    background-color: ghostwhite;
+
+}
+.menu-level-one > li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.menu-level-one a{
+    color: black;
+    font-size: 20px;
+}
+.menu-level-two {
+    position: absolute;
+    top: 100%; /*SE PLACE AU BAS DE L ELEMENT PARENT */
+    left: 0;
+    z-index: 10;
+    padding: 20px !important;
+    text-align: left;
+    background-color: white;
+    display: none;
+    transition: opacity .5s;
+    color: black;
+}
+.menu-level-two a{
+    opacity: .3;
+    font-size: 24px;
+}
+.menu-level-two a:hover{
+    opacity : 1;
+}
+.menu-level-two a.active{
+    opacity: 1;
+}
+li:hover .menu-level-two { /** + designe le frere **/
+    display: block;
+}
+canvas{
+    background-color: white;
+
+}
+.actif{
+    background-color: darkblue;
+    font-weight: bold;
+    color: beige;
+}
+#effacer{
+    background-color: red;
+}
+.displayNone{
+    display: none;
+}
+.okBtn{
+    padding: 10px;
+}
+canvas{
+    position : absolute;
+}
+#calque{
+    background: transparent;
+}
+.toForeground{
+    z-index: 3;
+}
+#background{
+    z-index: 1;
+}
+#formCouleur{
+    position: absolute;
+    top : 430px;
+    left: 10px;
+
+}
+
+
