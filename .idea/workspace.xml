@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c691462-81c4-41db-bcc9-aada64109469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/Outil.classe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Programm.class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Calque.class.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Calque.class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Carre.class.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Carre.class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Cercle.class.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Cercle.class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Ligne.class.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Ligne.class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Stylo.class.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Stylo.class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/events.js_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tools.js_old" afterDir="false" />
-    </list>
+    <list default="true" id="3c691462-81c4-41db-bcc9-aada64109469" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +223,7 @@
       <workItem from="1551858310774" duration="10470000" />
       <workItem from="1551874358923" duration="943000" />
       <workItem from="1551877440749" duration="13118000" />
-      <workItem from="1551947848043" duration="16270000" />
+      <workItem from="1551947848043" duration="16584000" />
     </task>
     <task id="LOCAL-00001" summary="Première remontée">
       <created>1551953965149</created>
@@ -245,17 +232,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551953965149</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version Objet">
+      <created>1551972036108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551972036108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93547000" />
+    <option name="totallyTimeSpent" value="93861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="195" y="82" width="2178" height="1287" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4995809" visible="true" weight="0.10009183" />
-      <window_info id="Structure" order="1" sideWeight="0.50041914" side_tool="true" visible="true" weight="0.10009183" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4995809" visible="true" weight="0.10009183" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.50041914" side_tool="true" visible="true" weight="0.10009183" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32942164" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -283,7 +277,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Première remontée" />
-    <option name="LAST_COMMIT_MESSAGE" value="Première remontée" />
+    <MESSAGE value="Version Objet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version Objet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Carrousel/index.html">
