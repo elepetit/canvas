@@ -12,23 +12,26 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="farbtastic/farbtastic.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/events.js"></script>
-    <script src="js/tools.js"></script>
+    <!--
+    <script src="js/events.js_old"></script>
+    <script src="js/tools.js_old"></script>
+    -->
     <script src="js/Backgound.class.js"></script>
     <script src="js/Calque.class.js"></script>
     <script src="js/Stylo.class.js"></script>
     <script src="js/Carre.class.js"></script>
     <script src="js/Cercle.class.js"></script>
     <script src="js/Ligne.class.js"></script>
+    <script src="js/Programm.class.js"></script>
 </head>
 <body>
     <header class="header-main">
         <div id="toolbar">
 
-            <button id="ligne" data-outil="ligne">Ligne</button>
-            <button id="carre" data-outil="carre">Carré</button>
-            <button id="cercle" data-outil="cercle">Cercle</button>
-            <button id="libre" data-outil="libre">Libre</button>
+            <button id="ligneBtn" data-outil="ligneBtn">Ligne</button>
+            <button id="carreBtn" data-outil="carreBtn">Carré</button>
+            <button id="cercleBtn" data-outil="cercleBtn">Cercle</button>
+            <button id="libreBtn" data-outil="libreBtn">Libre</button>
             <button id="couleurBordure" data-type="borderColor" class="colorBtn">Couleur Bordure</button>
             <button id="couleurRemplissage" data-type="backgroundColor" class="colorBtn">Couleur Remplissage</button>
 
@@ -100,7 +103,7 @@
                 <label for="rempli">Remplissage</label>
             </div>
             <div>
-                <button id="gomme" data-outil="gomme">Gomme</button>
+                <button id="gommeBtn" data-outil="gommeBtn">Gomme</button>
             </div>
             <div>
                 <button id="effacer">Effacer</button>

@@ -11,6 +11,8 @@ var Stylo = function(){
         borderColor:null,
         backgroundColor: null
     };
+
+
 };
 
 Stylo.prototype.setColor = function(type, value){
@@ -39,13 +41,13 @@ Stylo.prototype.getStyle = function(){
     return this.style;
 };
 
-Stylo.prototype.trace = function(startX, startY, endX, endY){
+Stylo.prototype.trace = function(startX, startY, endX, endY, calque,coordonnees){
 
-    if(outilActif === 'gomme'){
+    if(this.outilActif === 'gommeBtn'){
         calque.ctx.strokeStyle = 'white';
     }
     else {
-        calque.ctx.strokeStyle = stylo.getStyle().borderColor;
+        calque.ctx.strokeStyle = this.getStyle().borderColor;
     }
     calque.ctx.lineCap = this.getStyle().linecap;
     calque.ctx.fillStyle = this.getStyle().backgroundColor;
