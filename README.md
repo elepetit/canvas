@@ -1,6 +1,6 @@
 # canvas
 
-Un projet réalisé en objet Js dans le cadre des cours de la 3wa.
+Un projet réalisé en objet Js.
 
 Les classes sont :
 
